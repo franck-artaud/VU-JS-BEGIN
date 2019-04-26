@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gugi" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <title>Introduction à VU js</title>
+</head>
+<body>
+
+<div id="first-vue-app">
+    <h1>Voici comment on peut s'amuser en découvrant VUE JS</h1>
+    <h2> Le surnom de {{name}} est {{surname}}<h2>
+    <h2>{{name}} a {{age}} ans</h2> 
+
+    <p><span>Explication :</span>Explication : Francky et Mary sont des variables du JS importées directement dans le code HTML<br/>
+            On les ecris comme ceci <span>{ {name} } et { {surname} }</span>. On utilise la même manière de travailler
+            avec la variable <span>{  {age} }</span>
+    </p> 
+
+    <button class="btn" v-on:click="increment"> Francky t'as encore pris un an.. Pfffff</button>
+    <button class="btn"v-on:click="decrement">Utiliser l'elixir de jeunesse.... Ouff</button> 
+    
+    <p>L'incrémentation du bouton charge 2 methodes "methods" qui sont des fonctions du JS<br/>
+        On les appelle dans un bouton <span>v-on:click="increment"</span> typique à VUE.JS<br/>
+        <span>"increment""</span> est le nom de la methode mais on l'appeler <span>"tasse à café</span> ou <span>"chaise longue"</span>  
+    </p>
+
+</div>
+
+
+<div id="second-vue-app">
+    <h2> Le surnom de {{name}} est {{surname}}<h2>
+    <h2>{{name}} a {{age}} ans</h2> 
+</div>
+
+
+
+
+<script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 60px;
+    color: rgb(42, 161, 165);
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom : 60px;
+    
+}
+
+h2 {
+    font-family: 'Gugi', cursive;    font-size: 20px;
+    color: rgb(241, 86, 14);
+    margin: 0 auto;
+    padding-left : 80px;
+    font-size: 40px;
+}
+
+p {
+    font-family: 'Roboto Slab', serif;
+    color: rgb(56, 54, 54);
+    font-size: 25px;
+    padding-left : 80px;
+
+}
+p span{
+    font-family: 'Roboto Slab', serif;
+    color: rgb(241, 86, 14);
+    font-size: 25px;
+    
+
+}
+
+
+
+.btn {
+    background-color: rgb(42, 161, 165);
+    font-family: 'Roboto Slab', serif;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    margin: 20px 20px 20px 80px;
+    border: none;
+    border-radius:20px;
+    padding: 10px;
+
+
+
+
+}
